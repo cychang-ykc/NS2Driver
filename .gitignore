@@ -1,0 +1,25 @@
+# Build output
+build/
+build_release/
+
+# Installer build artifacts and bundled binaries (download separately)
+installer/dist/
+installer/files/
+
+# Duplicate DLLs/exe at installer root (copied by prepare.bat)
+installer/ns2drv.exe
+installer/hidapi.dll
+installer/libusb-1.0.dll
+
+# Claude Code local config
+.claude/
+
+# Planning documents
+NS2_Driver_Plan_From_Enabler.docx
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.user
+*.suo
+.vs/
