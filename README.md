@@ -33,19 +33,15 @@ A user-space Windows driver that makes the **Nintendo Switch 2 Pro Controller** 
 
 - Windows 10/11 64-bit
 - USB-C cable connecting the NS2 Pro Controller to your PC
-- [Zadig](https://zadig.akeo.ie/) — install **WinUSB** driver for `NS2 Pro Controller (Interface 1)` (one-time setup)
-
-> The installer automatically handles ViGEmBus and HidHide. Zadig is the only manual step required.
 
 ## Installation
 
-1. Run **Zadig**, select `NS2 Pro Controller (Interface 1)`, install **WinUSB** driver
-2. Run `NS2DriverSetup.exe` from the [Releases](../../releases) page — it will:
-   - Install [ViGEmBus](https://github.com/nefarius/ViGEmBus) (virtual gamepad bus driver)
-   - Install [HidHide](https://github.com/nefarius/HidHide) (hides the raw HID device from other apps)
-   - Configure HidHide automatically
-   - Set up auto-start at login
-   - Prompt for a reboot if required
+Run `NS2DriverSetup.exe` from the [Releases](../../releases) page — it will:
+- Install [ViGEmBus](https://github.com/nefarius/ViGEmBus) (virtual gamepad bus driver)
+- Install [HidHide](https://github.com/nefarius/HidHide) (hides the raw HID device from other apps)
+- Configure HidHide automatically
+- Set up auto-start at login
+- Prompt for a reboot if required
 
 ## Building from Source
 
